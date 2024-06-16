@@ -1,0 +1,30 @@
+{
+    "navigation": "plant",
+    "intro": {
+      "part1": "hi. i'm",
+      "part2": "and i have a",
+      "part3": "plant"
+    },
+    "skills": {
+      "part1": "i can do a few things:",
+      "part2": "and a bit more..."
+    },
+    "projects": {
+      "part1": "i did a few",
+      "part2": "projects",
+      "part3": "as well:"
+    },
+    "liked": {
+      "part1": "i like learning and watching other people learn",
+      "part2": "someone talking about something they're passionate about gives me more energy than drinking 6 espresso's within 30 minutes.",
+      "part3": "listening and making music makes me happy (although i can't play very well)",
+      "part4": "co-owner of crunch time, an it-company - i love things keeping me busy."
+    },
+    "plant": {
+      "part1": "this is my",
+      "part2": "plant"
+    },
+    "404": {
+      "part1": "````██╗``██╗`██████╗`██╗``██╗````\n````██║``██║██╔═████╗██║``██║````\n````███████║██║██╔██║███████║````\n````╚════██║████╔╝██║╚════██║````\n`````````██║╚██████╔╝`````██║````\n`````````╚═╝`╚═════╝``````╚═╝````\n`````````````````````````````````"
+    }
+  }

@@ -1,0 +1,30 @@
+{
+    "navigation": "plantje",
+    "intro": {
+      "part1": "hi. ik ben",
+      "part2": "en ik heb een",
+      "part3": "plantje"
+    },
+    "skills": {
+      "part1": "ik kan een aantal dingen:",
+      "part2": "en nog wat meer..."
+    },
+    "projects": {
+      "part1": "ik heb ook een paar",
+      "part2": "projecten",
+      "part3": "gedaan:"
+    },
+    "liked": {
+      "part1": "ik hou van dingen leren en zien hoe anderen dingen leren.",
+      "part2": "iemand die praat over zijn passie geeft mij meer energie dan 6 espresso's drinken in een half uur.",
+      "part3": "muziek luisteren en maken maakt mij blij (ook al kan ik het niet heel goed).",
+      "part4": "mede eigenaar van crunch time, een it-bedrijfje - ik hou ervan om bezig te zijn."
+    },
+    "plant": {
+      "part1": "dit is mijn",
+      "part2": "plantje"
+    },
+    "404": {
+      "part1": "````██╗``██╗`██████╗`██╗``██╗````\n````██║``██║██╔═████╗██║``██║````\n````███████║██║██╔██║███████║````\n````╚════██║████╔╝██║╚════██║````\n`````````██║╚██████╔╝`````██║````\n`````````╚═╝`╚═════╝``````╚═╝````\n`````````````````````````````````"
+    }
+  }
