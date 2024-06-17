@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="clean">
         <MainLayoutNavigation></MainLayoutNavigation>
-        <div>
+        <div class="main-content">
             <RouterView v-slot="{Component, route}">
                 <Transition name="fade" mode="out-in">
                     <Component :is="Component" :key="route.path"/>
@@ -22,5 +22,15 @@ import MainLayoutNavigation from '@/components/navigation/MainLayoutNavigation.v
 .fade-enter-from,
 .fade-leave-active {
     opacity: 0;
+}
+
+.clean {
+    max-width: 320px;
+    margin: 20px auto;
+
+    .main-content {
+        padding-top: 120px;
+        height: 9000px;
+    }
 }
 </style>
