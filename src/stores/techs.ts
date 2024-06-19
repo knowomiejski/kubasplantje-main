@@ -1,4 +1,3 @@
-import { ref, computed, type Ref } from "vue";
 import { defineStore } from "pinia";
 import type ITech from "@/models/tech";
 import { TechCategories } from "@/models/enums/techCategories";
@@ -139,8 +138,17 @@ export const useTechsStore = defineStore("techs", () => {
       ];
 
       const fetchTechs = async () => {
-      return techs;
-    }
+        return techs;
+      }
 
-    return {fetchTechs}
+    const fetchTechsByIds = (techIds: number[]) => {
+      const filtered = techs.filter((x: ITech) => {
+          if (x.id !== undefined) {
+              return techIds.includes(x.id);
+          }
+      })
+      return filtered;
+  }
+
+    return {fetchTechs, fetchTechsByIds}
 });

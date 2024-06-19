@@ -5,7 +5,7 @@
             <div class="flex justify-between">
                 <div class="">|</div>
                 <div class="w-full">
-                    <span class="text-primary ml-1">=&nbsp;</span><span class="text-white ml-1">name:</span><span class="text-white ml-1">{{ tech.name }}</span>
+                    <span class="text-primary ml-1">-&nbsp;</span><span class="text-white ml-1">name:</span><span class="text-white ml-1">{{ tech.name }}</span>
                 </div>
                 <div class="">|</div>
             </div>
